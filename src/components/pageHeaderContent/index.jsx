@@ -1,5 +1,4 @@
 import "./styles.scss";
-
 const PageHeaderContent = ({ headerText, icon }) => {
   return (
     <div className="wrapper">
