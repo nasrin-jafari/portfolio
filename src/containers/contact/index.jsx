@@ -47,7 +47,6 @@ const Contact = () => {
             <a href="mailto:nasrin.jafari778@gmail.com" target="_blank">
               <HiMail size={40} color="#FFD700" />
             </a>
-
           </div>
         </Animate>
       </div>
