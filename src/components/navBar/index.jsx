@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./styles.scss";
-
 import { HiX } from "react-icons/hi";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
