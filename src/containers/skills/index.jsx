@@ -4,7 +4,7 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate, AnimateKeyframes } from "react-simple-animate";
 import { PageHeaderContent } from "../../components";
 import "./styles.scss";
-import {skillsData} from '../../data/data'
+import { skillsData } from "../../data/data";
 
 const Skills = () => {
   return (
@@ -53,7 +53,6 @@ const Skills = () => {
             </div>
           </Animate>
         </div>
-    
       </div>
     </section>
   );
