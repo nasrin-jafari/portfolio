@@ -4,15 +4,13 @@ import { FaReact } from "react-icons/fa";
 import { TbWorldCode } from "react-icons/tb";
 import { BsFiletypeHtml } from "react-icons/bs";
 import { IoLogoJavascript } from "react-icons/io";
-import {PageHeaderContent} from "../../components"
+import { PageHeaderContent } from "../../components";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
-
-
-import {personalDetails } from "../../data/data"
+import { personalDetails } from "../../data/data";
 
 const jobSummary =
-"I\'m nasrin, the one who like challenge and excitement. I like to experience new things and acquire a lot of skills .I\'m learning react js, and I would like to be a successful programmer in the future and still interested in my work."
+  "I'm nasrin, the one who like challenge and excitement. I like to experience new things and acquire a lot of skills .I'm learning react js, and I would like to be a successful programmer in the future and still interested in my work.";
 const About = () => {
   return (
     <section id="about" className="about">
@@ -103,4 +101,3 @@ const About = () => {
   );
 };
 export default About;
-
