@@ -3,7 +3,7 @@ import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
 import "./styles.scss";
 import { useState } from "react";
-import {portfolioData} from '../../data/data'
+import { portfolioData } from "../../data/data";
 const Portfolio = () => {
   const [hoveredValue, setHoveredValue] = useState(null);
 
@@ -28,7 +28,11 @@ const Portfolio = () => {
             >
               <div className="portfolio__content__cards__item__img-wrapper">
                 <a>
-                  <img style={{objectFit :"cover"}} alt="dummy data" src={item.image} />
+                  <img
+                    style={{ objectFit: "cover" }}
+                    alt="dummy data"
+                    src={item.image}
+                  />
                 </a>
               </div>
               <div className="overlay">

@@ -110,21 +110,16 @@
   .portfolio__content__filter > li {
     font-size: 11px;
   }
-
-  
 }
-@media only screen and  (max-width: 1080px) {
-      .portfolio__content__cards {
+@media only screen and (max-width: 1080px) {
+  .portfolio__content__cards {
     grid-template-columns: repeat(2, 1fr);
-      }
-
-
+  }
 }
 @media only screen and (max-width: 700px) {
-.portfolio__content__cards {
+  .portfolio__content__cards {
     grid-template-columns: repeat(1, 1fr);
   }
-
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .portfolio__content__filter > li {
@@ -132,7 +127,6 @@
   }
 
   .portfolio__content__cards {
-
     &__item {
       .overlay {
         div > p {
