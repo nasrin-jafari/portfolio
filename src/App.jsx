@@ -2,11 +2,10 @@ import React from "react";
 import "./App.scss";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { Routes, Route , useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { Home, About, Skills, Portfolio, Resume, Contact } from "./containers";
 import { NavBar } from "./components";
 import particles from "./utils/particles";
-
 const App = () => {
   const location = useLocation();
 
@@ -23,7 +22,7 @@ const App = () => {
       )}
 
       {/* navbar */}
-      <NavBar/>
+      <NavBar />
 
       {/* main page content */}
       <div className="App__main-page-content">

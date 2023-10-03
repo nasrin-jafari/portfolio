@@ -31,8 +31,8 @@ const Home = () => {
             transform: "translatex(0px)",
           }}
         >
-          <div className="home__contact-me" >
-            <button   onClick={handleNavigateToContactMePage}>Hire Me</button>
+          <div className="home__contact-me">
+            <button onClick={handleNavigateToContactMePage}>Hire Me</button>
           </div>
         </Animate>
         <Animate
@@ -48,7 +48,11 @@ const Home = () => {
         >
           <div className="home__contact-me">
             <button>
-              <a href="../../images/bejourney.png" download={true} className="link-download">
+              <a
+                href="../../images/bejourney.png"
+                download={true}
+                className="link-download"
+              >
                 Download CV
               </a>
             </button>
