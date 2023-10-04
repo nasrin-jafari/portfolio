@@ -20,7 +20,7 @@ export const portfolioData = [
   {
     id: 2,
     name: "Youtube Clone",
-    llinkGitHub: "https://github.com/nasrin-jafari/youtube-clone",
+    linkGitHub: "https://github.com/nasrin-jafari/youtube-clone",
     linkVercel: "https://youtube-clone-wave.vercel.app/",
     image: youtube,
   },
